@@ -52,7 +52,7 @@ employee1.email
 employee3.email
 
 # stretch
-Wow I guess someone hired 100 identical drones. Captialism huh?
+#Wow I guess someone hired 100 identical drones. Captialism huh?
 employee_database = []
 index = 0
 while index < 100
