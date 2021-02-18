@@ -1,6 +1,6 @@
 class Employee
-  attr_reader :first_name, :last_name, :email, :salary, :active
-  attr_writer :first_name, :last_name, :email, :salary, :active
+  #stretch
+  attr_accessor :first_name, :last_name, :email, :salary, :active
 
   def initialize(input_options = {first_name: "First", last_name: "Last", email: "default", salary: 0, active: true})
     @first_name = input_options[:first_name]
