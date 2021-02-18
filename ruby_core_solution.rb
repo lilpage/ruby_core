@@ -9,6 +9,14 @@ class Employee
     @active = input_options[:active]
   end
 
+  def full_name
+    if @last_name[-1] == "s"
+      return "#{@first_name} #{@last_name}, Esquire"
+    else
+      return "#{@first_name} #{@last_name}"
+    end
+  end
+
   def print_info
     puts "#{@first_name} #{@last_name} makes #{@salary} a year."
   end
@@ -21,4 +29,6 @@ end
 employee1 = Employee.new({first_name: "Majora", last_name: "Carter", salary: 80000, active: true})
 employee2 = Employee.new(first_name: "Danilo", last_name: "Campos", salary: 70000, active: true)
 employee1.print_info
-employee2.print_info# Write your solution below
+employee2.print_info
+puts employee1.full_name
+puts employee2.full_name
