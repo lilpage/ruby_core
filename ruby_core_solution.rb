@@ -52,16 +52,16 @@ employee1.email
 employee3.email
 
 # stretch
-# Wow I guess someone hired 100 identical drones. Captialism huh?
-# employee_database = []
-# index = 0
-# while index < 100
-#   employee_database << Employee.new({first_name: "Drone Number", last_name: index+1, salary: 0, active: true})
-#   index += 1
-# end
-# # Print Empolyee Database
-# index = 0
-# while index < 100
-#   puts employee_database[index].full_name
-#   index +=1
-# end
+Wow I guess someone hired 100 identical drones. Captialism huh?
+employee_database = []
+index = 0
+while index < 100
+  employee_database << Employee.new({first_name: "Drone Number", last_name: index+1, salary: 0, active: true})
+  index += 1
+end
+# Print Empolyee Database
+index = 0
+while index < 100
+  puts employee_database[index].full_name
+  index +=1
+end
